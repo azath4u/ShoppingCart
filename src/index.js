@@ -13,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<Push />} />   
         <Route path="/app" element={<App />} /> 
+        <Route path="*" element={<Push />} /> 
       </Routes>
     </BrowserRouter>
   </Cartprovider>
